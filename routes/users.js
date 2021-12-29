@@ -1,0 +1,11 @@
+const express = require('express');
+const router=express.Router();
+const userController= require('../controllers/users_controller');  
+router.get('/profile',userController.profile);
+router.get('/delete-task',userController.delete_task);
+router.post('/create-tasks',userController.create_tasks);
+router.get('/sign-up',userController.SignUp);
+router.get('/sign-in',userController.SignIn);
+router.post('/create',userController.create);
+router.post('/create-session',userController.createSession);
+module.exports= router;

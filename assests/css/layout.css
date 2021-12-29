@@ -2,5 +2,24 @@
 body{
     margin:0;
     text-align: center;
-    color:blue;
+    color:black;
+}
+.home{
+    padding:12px;
+    background-color:chartreuse;
+}
+.Personal{
+    padding:12px;
+    background-color:yellow;
+
+}
+   
+.work{
+    background-color:lightgreen;
+    padding:12px;
+
+}
+.other{
+    background-color:rgb(0, 47, 100);
+    padding:12px;
 }
